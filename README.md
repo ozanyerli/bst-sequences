@@ -21,4 +21,4 @@ To find all the sequences, I implemented a recursive function. Function starts w
 - When there are no possible choices left, add the main sequence to the list of sequences. 
 - Recursion ends when there are no possible choices left
 
-I defined a dynamically growing array type to store all the sequences. This array stores the head pointers of the linked lists (sequences). When it runs out of memory, it wil reallocate 2 times of it’s size. Finally, this array type is traversed and sequences are printed to the console. If there are more than 50 sequences, only first 50 sequences will be printed.
+I defined a dynamically growing array type to store all the sequences. This array stores the head pointers of the linked lists (sequences). When it runs out of memory, it will reallocate 2 times of it’s size. Finally, this array type is traversed and sequences are printed to the console. If there are more than 50 sequences, only first 50 sequences will be printed.
