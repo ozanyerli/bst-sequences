@@ -1,5 +1,7 @@
 Enter a sequence: 3 2 5 1 4
+
 In-order traversal of BST: 1 2 3 4 5
+
 Number of sequences: 6
 
 1. sequence: 3 2 5 1 4
