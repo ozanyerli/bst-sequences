@@ -1,8 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-// Ozan Yerli, ID: 150118064
-
 struct BST {
 	int key;
 	struct BST *left;
