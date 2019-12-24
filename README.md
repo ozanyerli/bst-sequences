@@ -1,8 +1,9 @@
-- This is a solution for a problem from the book Cracking The Coding Interview, 6th Edition, by Gayle Laakmann.
+# This is a solution for a problem from the book Cracking The Coding Interview, 6th Edition, by Gayle Laakmann.
 
 Problem 4.9. BST Sequences: A binary search tree was created by traversing through an array from left to right and inserting each element. Given a binary search tree with distinct elements, print all possible arrays that could have led to this tree.
 
 Output:
+
 --------------------------------
 
 Enter a sequence: 3 2 5 1 4
