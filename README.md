@@ -1,3 +1,10 @@
+- This is a solution for a problem from the book Cracking The Coding Interview, 6th Edition, by Gayle Laakmann.
+
+Problem 4.9. BST Sequences: A binary search tree was created by traversing through an array from left to right and inserting each element. Given a binary search tree with distinct elements, print all possible arrays that could have led to this tree.
+
+Output:
+--------------------------------
+
 Enter a sequence: 3 2 5 1 4
 
 In-order traversal of BST: 1 2 3 4 5
@@ -12,6 +19,7 @@ Number of sequences: 6
 6. sequence: 3 5 4 2 1
  
 --------------------------------
+
 In my solution, I used a linked list structure to store both the input and output sequences. I implemented insert, delete, clone and print functions for this linked list. After reading input and constructing the linked list, keys are inserted to BST with a simple recursive insert algorithm.  In order to verify BST is constructed correctly, a function is called to print the in-order traversal of the BST.
 
 To find all the sequences, I implemented a recursive function. Function starts with the root of the tree:
